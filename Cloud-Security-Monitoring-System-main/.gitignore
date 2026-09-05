@@ -1,0 +1,56 @@
+# ── Backend (Maven / Spring Boot) ────────────────────────────────────────────
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+!backend/src/main/**/target/
+!backend/src/test/**/target/
+!backend/src/main/**/build/
+!backend/src/test/**/build/
+
+# ── Frontend (Node / Vite) ────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.project
+.classpath
+.factorypath
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+
+# ── OS artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs & Debug Files ────────────────────────────────────────────────────────
+*.log
+hs_err_pid*
+replay_pid*
+compile-out.txt
+build_utf8.log
+test_utf8.log
+
+# ── Local Environment Overrides ────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+**/local.properties
+**/application-local.properties
+**/secrets/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+nbproject/private/
+nbbuild/
+/nbdist/
+/.nb-gradle/

@@ -1,0 +1,23 @@
+# Git
+.git
+.gitattributes
+.gitignore
+.github
+
+# IDE
+.idea
+.vscode
+
+# Maven build output (will be created fresh inside Docker)
+target/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker itself
+Dockerfile
+.dockerignore
